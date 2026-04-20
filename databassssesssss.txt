@@ -1,0 +1,6 @@
+CREATE PLUGGABLE DATABASE jobsearch_pdb 
+ADMIN USER jobsearch IDENTIFIED BY jobsearch 
+FILE_NAME_CONVERT = ( 
+'C:\oracle\oradata\XE\pdbseed\', 
+'C:\oracle\oradata\XE\jobsearch_pdb\' 
+); 
